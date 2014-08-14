@@ -1,0 +1,33 @@
+{
+  "name": "anti-raygun",
+  "version": "0.0.1",
+  "description": "Deprivatizes CommonJS modules",
+  "main": "index.js",
+  "dependencies": {
+    "kew": "~0.4.0",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "chai": "^1.9.1"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "prepublish" : "npm prune"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhnstn/anti-raygun"
+  },
+  "keywords": [
+    "testing",
+    "private",
+    "unit testing"
+  ],
+  "author": "jason johnston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhnstn/anti-raygun/issues"
+  },
+  "homepage": "https://github.com/jhnstn/anti-raygun"
+}
